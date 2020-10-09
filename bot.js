@@ -11,8 +11,8 @@ client.on("message", (msg) => {
   if (msg.content === "ping") {
     msg.reply("pong");
   }
-  if (message.content === "افشخ الشي") {
-    message.reply(message.author.displayAvatarURL());
+  if (msg.content === "افشخ الشي") {
+    msg.reply(msg.author.displayAvatarURL());
   }
 });
 
